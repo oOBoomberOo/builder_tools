@@ -1,0 +1,9 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/carrot_on_a_stick"
+	},
+	"overrides": [
+		{"predicate": {"custom_model_data": [model.builder_tool]}, "model": "boomber:builder_tools/item/builder_tool"}
+	]
+}

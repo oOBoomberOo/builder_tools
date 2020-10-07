@@ -1,0 +1,31 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate": "builder_tools.item.builder_tool", "italic": false}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: [model.builder_tool], Unbreakable: true}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc: {id: 'builder_tool', from: 'boomber:builder_tools', traits: {}}}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{builder_tools: {mode: [mode.none]}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,1 @@
+execute as @a at @s run function boomber:builder_tools/player/main
