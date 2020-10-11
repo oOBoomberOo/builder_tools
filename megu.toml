@@ -3,8 +3,3 @@ src = "src/"
 output = "build/"
 
 [keys]
-'model.builder_tool' = "8080001"
-'mode.none' = "0"
-'mode.replace' = "0"
-'mode.line' = "0"
-'mode.circle' = "0"
