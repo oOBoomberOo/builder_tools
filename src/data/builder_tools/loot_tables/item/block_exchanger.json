@@ -1,0 +1,27 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "minecraft:set_name",
+							"name": {"translate": "builder_tools.item.block_exchanger", "italic": false}
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{CustomModelData: [model.block_exchanger], Unbreakable: true}"
+						},
+						{
+							"function": "minecraft:set_nbt",
+							"tag": "{ctc: {id: 'block_exchanger', from: 'boomber:builder_tools', traits: {}}}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

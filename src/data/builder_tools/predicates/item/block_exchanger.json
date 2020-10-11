@@ -1,0 +1,11 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"nbt": "{ctc: {id: 'block_exchanger', from: 'boomber:builder_tools'}}"
+			}
+		}
+	}
+}

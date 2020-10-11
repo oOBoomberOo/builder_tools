@@ -3,3 +3,5 @@ src = "src/"
 output = "build/"
 
 [keys]
+"model.block_exchanger" = "8081001"
+"model.hologram" = "8081002"

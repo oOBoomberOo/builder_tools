@@ -3,5 +3,7 @@
 	"textures": {
 		"layer0": "item/carrot_on_a_stick"
 	},
-	"overrides": []
+	"overrides": [
+		{"predicate": {"custom_model_data": [model.block_exchanger]}, "model": "builder_tools:item/block_exchanger"}
+	]
 }

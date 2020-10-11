@@ -1,0 +1,6 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "builder_tools:item/block_exchanger"
+	}
+}

@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:block/white_stained_glass",
 	"overrides": [
-		{"predicate": {"custom_model_data": 8080001}, "model": "builder_tools:block/hologram"}
+		{"predicate": {"custom_model_data": [model.hologram]}, "model": "builder_tools:block/hologram"}
 	]
 }
